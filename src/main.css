@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #0d6efd;
+  text-align: center;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-azul {
+  background-color: #0d6efd;
+}
+
+.btn-rojo {
+  background-color: #dc3545;
+}
+
+.caja {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 50px;
+  white-space: pre-wrap;
+}
+
+.contador {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0d6efd;
+  margin: 0;
+}
+
+mark {
+  background-color: yellow;
+}
+
+
+.oculto {
+  display: none;
+}
+
+.alerta {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.danger {
+  background-color: #dc3545;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.success {
+  background-color: #198754;
+}
