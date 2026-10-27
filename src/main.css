@@ -6,7 +6,7 @@ body {
 }
 
 .contenedor {
-  max-width: 600px;
+  max-width: 600px; 
   margin: 0 auto;
   background-color: white;
   padding: 20px;
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: #0d6efd;
+  color: #050505;
   text-align: center;
 }
 
@@ -44,6 +44,10 @@ button {
 
 .btn-azul {
   background-color: #0d6efd;
+}
+
+.btn-verde {
+  background-color: #000000;
 }
 
 .btn-rojo {
@@ -91,4 +95,23 @@ mark {
 
 .success {
   background-color: #198754;
+}
+
+#contenedor1 {
+  
+  width: 200%;
+  max-width: 1000px;
+  height: auto;
+  margin: 20px auto; 
+  padding: 24px;
+
+  background-color: #f9f8f8;
+  color: #580062;
+  border: 3px solid #930510;
+  border-radius: 12px;
+
+
+  box-shadow: 0 4px 12px rgba(255, 0, 221, 0.08);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
